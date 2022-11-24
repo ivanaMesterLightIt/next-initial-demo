@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function AboutPage() {
@@ -13,12 +13,12 @@ export default function AboutPage() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Ir a <a href="/">Home</a>
+          Ir a <Link href="/">Home</Link>
         </h1>
 
         <p className={styles.description}>
           Get started by editing{' '}
-          <code className={styles.code}>pages/about.js</code>
+          <code className={styles.code}>pages/about.jsx</code>
         </p>
       </main>
 
